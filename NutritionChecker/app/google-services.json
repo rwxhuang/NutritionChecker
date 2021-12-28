@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "487630894462",
+    "firebase_url": "https://nutritionchecker-e6469.firebaseio.com",
+    "project_id": "nutritionchecker-e6469",
+    "storage_bucket": "nutritionchecker-e6469.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487630894462:android:40fcea2a5cecde48da6f2f",
+        "android_client_info": {
+          "package_name": "com.nutrition.checker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487630894462-ec9g8mv0qjsotb3sai85f27u274ahnrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqPCfIVtjfX1-FxvL8K4eafD9tuc_snPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487630894462-ec9g8mv0qjsotb3sai85f27u274ahnrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

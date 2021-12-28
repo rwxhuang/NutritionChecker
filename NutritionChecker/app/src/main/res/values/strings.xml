@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Nutrition Checker</string>
+
+    // bottom navigation bar
+    <string name="home_title">Home</string>
+    <string name="profile_title">Profile</string>
+    <string name="about_title">About</string>
+
+    // welcome screen
+    <string name="welcome_title">Welcome to Nutrition Checker!</string>
+    <string name="welcome_hint">Tap anywhere to begin</string>
+
+    // home screen
+    <string name="home_cart">Your Cart:</string>
+    <string name="start_button">Scan Nutrition Label</string>
+
+    // form screen
+    <string name="form_prompt">Please fill out the following information:</string>
+    <string name="age_label">Age:</string>
+    <string name="age_hint">Enter your age</string>
+    <string name="height_label">Height:</string>
+    <string name="height_hint">Enter your height (in)</string>
+    <string name="weight_label">Weight:</string>
+    <string name="weight_hint">Enter your weight (lbs)</string>
+    <string name="exercise_label">Exercise:</string>
+    <string name="exercise_hint">Enter your daily exercise</string>
+    <string name="sex_label">Sex:</string>
+    <string-array name="sex">
+        <item>Select sex</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="calorie_label">Calorie Count:</string>
+
+    // image screen
+    <string name="image_description">Note: Please make sure that the image displayed above is
+        right-side up and has good resolution.</string>
+
+    // profile screen
+    <string name="profile_header">Your Profile</string>
+    <string name="edit_button">Edit Profile</string>
+    <string name="clear_button">Clear Cart</string>
+
+    // edit screen
+    <string name="edit_header">Make any changes to your personal info:</string>
+    <string name="edit_note">Note: Calorie count is calculated based on your info</string>
+
+    // about screen
+    <string name="about_header">About the App</string>
+    <string name="app_description">Need help determining whether your food is the right choice for
+        YOU? With Nutrition Checker, you can find out how healthy the food that you want to eat is by
+        simply taking a photo of its nutrition label. Once you provide info such as your age, sex,
+        height, and weight, this app can help determine how nutritious the food is specifically for you.
+        \n\nPhysical fitness has been neglected by many people as the coronavirus has pervaded the
+        world. Most individuals aren’t staying as active while also eating unhealthy or “junk” foods,
+        which is detrimental to their physical fitness. What we’ve done is create a simple remedy to
+        the problem by providing a tool that informs users what foods are healthy and should be eaten
+        and what foods are unhealthy to help people make better choices while buying and eating food.
+        By informing individuals about the unhealthy ingredients in food items, users can maintain
+        their physical fitness levels while staying at home during this global pandemic.
+        \n\nWe use OCR or optical character recognition to convert the text from the label to a
+        string. From there, we parse the total amounts of various components per serving and compare
+        these values to the recommended amounts as prescribed by leading health organizations such as
+        WHO, FDA, and the American Heart Association.</string>
+    <string name="instructions_header">Getting Started</string>
+    <string name="app_instructions">If you need some additional help getting started with Nutrition
+        Checker, please go through the following instructions:\n\n1. On the home screen, you will find
+        your past food items that you have scanned labels for in your cart. If you have not scanned
+        anything, no items will show up.\n\n2.Before, you click the "Scan Label" button to take a photo
+        of the nutrition label of your food or drink, make sure that your personal info is correct.
+        Check your profile which contains your personal info that you entered when you first opened
+        up the app. If you need to make any changes, then go ahead and edit your profile.\n\n3. After
+        your info is correct, go back to the Home screen and press the button to scan your label.
+        Take a picture of the nutrition label and retake the photo if it is messy.\n\n4. Check to see
+        if the photo that appears on the screen when your return from your camera has good resolution
+        and is right-side up. If it is not, click the button to take a photo again until you believe
+        you have a good photo because the text will not be read properly with a blurry photo that is
+        not oriented correctly.\n\n5. Once you confirm your photo, you will see the nutrition info and
+        be able to add the item to your cart.\n\n6.If you want to scan another item, take another photo
+        and then add it to the cart. If your results are good, keep it up! Otherwise, make better choices.</string>
+    <string name="credits_header">Credits</string>
+    <string name="app_credits">Sooraj V. Chetput\nRoderick Huang\nRaghav Pramod Murthy\nAryan Sagar Shelke</string>
+
+    // SharedPreferences
+    <string name="pref_previously_started"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
